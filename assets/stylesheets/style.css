@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+#color_box {
+    width: 200px;
+    height: 200px;
+}
+
+.gray {
+    background: gray;
+}
+.blue {
+    background: rgb(67, 111, 255);
+}
+.pink {
+    background: rgb(255, 149, 167);
+}
+
+#move_box_container {
+    width: 100%;
+    display: flex;
+}
+
+#move_box {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: black;
+}
+
+.center {
+    justify-content: center;
+}
+.left {
+    justify-content: flex-start;
+}
+.right {
+    justify-content: flex-end;
+}
